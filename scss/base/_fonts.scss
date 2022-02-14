@@ -1,0 +1,50 @@
+@font-face{
+   font-family: 'CabinetGrotesk';
+   font-weight: 700;
+   font-style: normal;
+   src: local('CabinetGrotesk-Bold'),
+		 url('../fonts/CabinetGrotesk-Bold.woff2') format('woff2'),
+		 url('../fonts/CabinetGrotesk-Bold.woff') format('woff');
+   font-display: swap;
+}
+
+@font-face{
+   font-family: 'CabinetGrotesk';
+   font-weight: 900;
+   font-style: normal;
+   src: local('CabinetGrotesk-Black'),
+         url('../fonts/CabinetGrotesk-Black.woff2') format('woff2'),
+         url('../fonts/CabinetGrotesk-Black.woff') format('woff');
+   font-display: swap;
+}
+
+@font-face{
+   font-family: 'HelveticaNowDisplay';
+   font-weight: 400;
+   font-style: normal;
+   src: local('HelveticaNowDisplay-Regular'),
+         url('../fonts/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+         url('../fonts/HelveticaNowDisplay-Regular.woff') format('woff');
+   font-display: swap;
+}
+
+
+@font-face{
+   font-family: 'HelveticaNowDisplay';
+   font-weight: 500;
+   font-style: normal;
+   src: local('HelveticaNowDisplay-Medium'),
+         url('../fonts/HelveticaNowDisplay-Medium.woff2') format('woff2'),
+         url('../fonts/HelveticaNowDisplay-Medium.woff') format('woff');
+   font-display: swap;
+}
+
+@font-face{
+   font-family: 'HelveticaNowDisplay';
+   font-weight: 700;
+   font-style: normal;
+   src: local('HelveticaNowDisplay-Bold'),
+         url('../fonts/HelveticaNowDisplay-Bold.woff2') format('woff2'),
+         url('../fonts/HelveticaNowDisplay-Bold.woff') format('woff');
+   font-display: swap;
+}

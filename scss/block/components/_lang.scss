@@ -1,0 +1,40 @@
+.lang {
+
+	&__item {
+		display: none;
+	}
+
+
+	&__item:first-child {
+		display: flex;
+		align-items: center;
+
+
+		&::after{
+			display: table;
+			content: "";
+			background-image: url('/images/icon/lang-arrow.svg');
+			background-repeat: no-repeat;
+			width: 12px;
+			height: 7px;
+			margin-left: 9px;
+		}
+	}
+
+	&:hover &__item{
+		display: flex;
+		&::after{
+			transform: rotate(180deg);
+		}
+	}
+
+
+
+	&__link {
+		font-size: 14px;
+		line-height: 150%;
+		font-weight: 500;
+		color: $title-color;
+		text-transform: uppercase;
+	}
+}
