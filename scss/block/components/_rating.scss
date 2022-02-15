@@ -1,0 +1,32 @@
+.rating {
+	letter-spacing: 0.02em;
+
+	&__title {
+		font-family: $ff2;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 110%;
+		color: $title-color;
+		margin-bottom: 7px;
+		
+	}
+
+	&__rank {
+		&::before{
+			display: inline-block;
+			content: "";
+			background-image: url('/images/icon/rating_star.svg');
+			width: 16px;
+			height: 16px;
+			margin: -1px 5px;
+		}
+	}
+
+	&__descr {
+		line-height: 146%;
+		margin-bottom: 20px;
+	}
+	
+
+	
+}

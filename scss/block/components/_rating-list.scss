@@ -1,0 +1,36 @@
+.rating{
+
+	&__list {
+		display: flex;
+	}
+
+	&__item {
+		&~&{
+			margin-left: -10px;
+		}
+		
+	}
+
+	&__object {
+		width: 48px;
+		height: 48px;
+		border: 2px solid $white;
+		border-radius: 50%;
+	}
+
+	&__object-more {
+		display: block;
+		background-color: $accent-color;
+		color: $white;
+		font-family: $ff2;
+		font-weight: 700;
+		text-align: center;
+		padding: 14px 0;
+		&:hover {
+			transform: translateY(-1px);
+			background-color: lighten($accent-color, 5%);
+			box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+		}
+
+	}
+}
