@@ -1,13 +1,10 @@
 .services {
-	display: flex;
-	padding: 240px 0 120px;
+	padding: 226px 0 120px;
 	background-color: $white;
-	margin-top: -119px;
+	margin-top: -105px;
 
 	&__list {
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
 	}
 
 	&__item {

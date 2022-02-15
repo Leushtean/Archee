@@ -1,0 +1,29 @@
+.about {
+	padding: 75px 0;
+	background-color: $bg-second-color;
+	// background-image: url('/images/aim-house.png');
+	// background-repeat: no-repeat;
+	// background-position: top 75px left 0px;
+
+	&__container{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__image{
+		margin-left: -150px;
+	}
+
+	&__content {
+		margin-top: 46px;
+		margin-left: 38.1px;
+	}
+
+	&__content-title {
+		margin-bottom: 20px;
+	}
+
+	&__content-descr {
+		margin-bottom: 40px;
+		line-height: 175%;
+	}
+}
