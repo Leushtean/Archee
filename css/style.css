@@ -205,6 +205,14 @@ button {
   color: #2C2321;
 }
 
+.title__large {
+  font-family: "CabinetGrotesk", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 125%;
+  color: #2C2321;
+}
+
 .slick-dots {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,7 +308,7 @@ button {
   -webkit-box-shadow: 30px 50px 150px 0px #271F1A33;
           box-shadow: 30px 50px 150px 0px #271F1A33;
   padding: 50px;
-  margin-top: -106px;
+  margin-top: -105px;
   z-index: 50;
 }
 
@@ -313,13 +321,16 @@ button {
   margin-bottom: 20px;
 }
 
-.product {
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 240px 0 120px;
   background-color: #FFF;
-  margin-top: -120px;
+  margin-top: -119px;
 }
 
-.product__list {
+.services__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,33 +342,64 @@ button {
           align-items: center;
 }
 
-.product__item {
-  max-width: 290px;
+.services__item {
+  max-width: 288px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
-.product__item-icon {
+.services__item ~ .services__item {
+  margin-left: 137px;
+}
+
+.services__icon-box {
   margin-bottom: 30px;
 }
 
-.product__item-title {
+.services__item-title {
   margin-bottom: 10px;
 }
 
-.product__item-descr {
+.services__item-descr {
   line-height: 175%;
   margin-bottom: 30px;
 }
 
-.product__item-number {
+.services__item-more {
   font-family: "CabinetGrotesk", sans-serif;
   font-weight: 700;
   line-height: 125%;
   color: #2C2321;
   text-decoration: underline;
+  cursor: pointer;
 }
 
-.product__item-number:hover {
-  color: #D6680F;
+.services__item-more:hover {
+  color: #ef7c1f;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.aim {
+  padding: 120px 0;
+  background-color: #FDFBF6;
+  background-image: url("/images/aim-house.png");
+  background-repeat: no-repeat;
+  background-position: top 75px left 0px;
+}
+
+.aim__content {
+  max-width: 420px;
+  margin-left: auto;
+}
+
+.aim__content-title {
+  margin-bottom: 20px;
+}
+
+.aim__content-descr {
+  margin-bottom: 40px;
+  line-height: 175%;
 }
 
 .menu__list {
@@ -404,11 +446,7 @@ button {
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.btn__promo {
-  padding: 20px 40px;
-}
-
-.btn__search {
+.btn__big {
   padding: 20px 40px;
 }
 
@@ -557,13 +595,10 @@ button {
   line-height: 141%;
 }
 
-.search-form__label {
+.search-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .search-form__field {
@@ -575,6 +610,10 @@ button {
   line-height: 147%;
   background-repeat: no-repeat;
   background-position: center right 22px;
+  margin-right: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .search-form__field::-webkit-input-placeholder {
