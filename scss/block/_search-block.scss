@@ -1,0 +1,21 @@
+.search {
+
+	&__block {
+		position: relative;
+		background-color: $white;
+		border-radius: 10px;
+		box-shadow: 30px 50px 150px 0px #271F1A33;
+		padding: 50px;
+		margin-top: -106px;
+		z-index: 50;
+	}
+
+	&__block-title {
+		font-family: $ff2;
+		font-size: 24px;
+		line-height: 125%;
+		font-weight: 700;
+		color: $title-color;
+		margin-bottom: 20px;
+	}
+}

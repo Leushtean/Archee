@@ -1,0 +1,45 @@
+.product {
+	padding: 240px 0 120px;
+	background-color: $white;
+	margin-top: -120px;
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__item {
+		max-width: 290px;
+	}
+
+	&__item-icon {
+		margin-bottom: 30px;
+	}
+
+	&__item-title {
+		margin-bottom: 10px;
+	}
+
+	&__item-descr {
+		line-height: 175%;
+		margin-bottom: 30px;
+	}
+
+	&__item-number {
+		font-family: $ff2;
+		font-weight: 700;
+		line-height: 125%;
+		color: $title-color;
+		text-decoration: underline;
+		&:hover{
+			color: $accent-color;
+		}
+	}
+}
+
+.container {}
+
+.item-icon {}
+
+.title {}
