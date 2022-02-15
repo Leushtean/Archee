@@ -8,13 +8,14 @@
 	&__container{
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 	}
 	&__image{
 		margin-left: -150px;
 	}
 
 	&__content {
-		margin-top: 46px;
+		// margin-top: 46px;
 		margin-left: 38.1px;
 	}
 

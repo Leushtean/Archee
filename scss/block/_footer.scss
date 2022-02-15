@@ -1,0 +1,28 @@
+.footer {
+	background-color: $white;
+	line-height: 175%;
+	
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		border-top: 1px solid $text-color;
+		padding: 41px 0 50px;
+	}
+
+	&__address {
+		max-width: 145px;
+	}
+
+	&__link {
+		&:hover {
+			color: $accent-color;
+		}
+	}
+
+	&__social-link {
+		&:hover{
+			color: $accent-color;
+		}
+	}
+}

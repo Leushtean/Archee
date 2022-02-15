@@ -1,0 +1,16 @@
+.blog {
+	background-color: $white;
+	padding: 120px 0;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+
+	&__item-image {
+		margin-bottom: 50px;
+	}
+
+}

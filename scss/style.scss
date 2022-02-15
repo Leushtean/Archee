@@ -10,8 +10,9 @@
 @import "./block/search-block";
 @import "./block/services";
 @import "./block/about";
-
-
+@import "./block/selected";
+@import "./block/slider";
+@import "./block/blog";
 @import "./block/footer";
 
 
@@ -24,3 +25,4 @@
 @import "./block/components/rating-list";
 @import "./block/components/contact";
 @import "./block/components/search-form";
+@import "./block/components/blog-content";
