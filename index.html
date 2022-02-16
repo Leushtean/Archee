@@ -5,8 +5,13 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
 	<title>Archee</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" defer></script>
+	<script src="js/main.js" defer></script>
 </head>
 
 
@@ -248,14 +253,59 @@
 				</div>
 			</section>
 
-			<section class="slider">
-				<div class="container">
-					<div class="slider__inner"></div>
+			<section class="architects">
+				<div class="container architects__container">
+					<h2 class="architects__title title title-white">Architects of Archee</h2>
+
+
+					<div class="swiper architects__swiper architects-swiper">
+						<ul class="swiper-wrapper architects-swiper__list">
+
+
+							<li class="swiper-slide architects-swiper__item architects-item">
+								<img class="architects-item__image" src="./images/slider/slide-01.jpg"
+									alt="architect-1">
+								<div class="architects-item__content">
+									<h3 class="architects-item__title title title-white title-arch">Ralph Edwards</h3>
+									<div class="architects-item__descr">
+										<p>Architect</p>
+									</div>
+								</div>
+							</li>
+							<li class="swiper-slide architects-swiper__item architects-item">
+								<img class="architects-item__image" src="./images/slider/slide-02.jpg"
+									alt="architect-2">
+								<div class="architects-item__content">
+									<h3 class="architects-item__title title title-white title-arch">Cody Fisher</h3>
+									<div class="architects-item__descr">
+										<p>Interior Designer</p>
+									</div>
+								</div>
+							</li>
+							<li class="swiper-slide architects-swiper__item architects-item">
+								<img class="architects-item__image" src="./images/slider/slide-03.jpg"
+									alt="architect-3">
+								<div class="architects-item__content">
+									<h3 class="architects-item__title title title-white title-arch">Floyd Miles</h3>
+									<div class="architects-item__descr">
+										<p>Project Manager</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="architects__nav architects-nav">
+						<button class="swiper-prev architects-nav__btn architects-nav__btn-prev">Previous</button>
+						<button class="swiper-next architects-nav__btn architects-nav__btn-next">Next</button>
+					</div>
+
 				</div>
 			</section>
 
 			<section class="blog">
 				<div class="container">
+					<h2 class="sr-only">Blog</h2>
 					<ul class="blog__inner">
 						<li class="blog__item">
 							<div class="blog__item-image">
@@ -263,7 +313,7 @@
 							</div>
 
 							<div class="blog__item-content">
-								<div class="blog__item-info blog-box__links">
+								<div class="blog__item-info">
 									<span class="blog__item-date">16th Dec, 2021</span>
 									<a class="blog__item-author" href="#">Esther Howard</a>
 								</div>
@@ -359,6 +409,7 @@
 
 
 	</div>
+
 
 
 </body>

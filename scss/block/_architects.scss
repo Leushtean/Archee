@@ -1,0 +1,46 @@
+.architects {
+	background-color: $title-color;
+	padding: 120px 0;
+
+	&__container {
+		display: flex;
+		align-items: flex-start;
+		position: relative;
+	}
+
+	&__title {
+		flex-shrink: 0;
+		margin-right: 69.5px;
+		max-width: 330px;
+	}
+
+	&__swiper {
+		flex-shrink: 0;
+	}
+
+	&__nav {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+.container {}
+
+.title {}
+
+.title-white {}
+
+.swiper {}
+
+.swiper-wrapper {}
+
+.swiper-slide {}
+
+
+
+
+
+.swiper-button-prev {}
+
+.swiper-button-next {}

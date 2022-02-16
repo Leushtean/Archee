@@ -1,0 +1,28 @@
+.architects-nav {
+
+	&__btn {
+		font-size: 0;
+		background-color: transparent;
+		margin-right: -7px;
+		margin-bottom: 3px;
+		padding-left: 19px;
+
+		&::before{
+			display: table;
+			width: 28px;
+			height: 16px;
+		}
+	}
+
+	&__btn-prev {
+		&::before{
+			content: url("/images/icon/arrow prev.svg");
+		}
+	}
+
+	&__btn-next {
+		&::before{
+			content: url('/images/icon/arrow next.svg');
+		}
+	}
+}

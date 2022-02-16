@@ -147,6 +147,7 @@ body {
   min-height: 100%;
   width: 1440px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .main {
@@ -205,41 +206,25 @@ button {
   color: #2C2321;
 }
 
+.title-white {
+  font-size: 48px;
+  line-height: 125%;
+  color: #FFF;
+}
+
+.title-arch {
+  font-family: "CabinetGrotesk", sans-serif;
+  font-size: 24px;
+  line-height: 125%;
+  font-weight: 900;
+}
+
 .title__large {
   font-family: "CabinetGrotesk", sans-serif;
   font-weight: 900;
   font-size: 48px;
   line-height: 125%;
   color: #2C2321;
-}
-
-.slick-dots {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.slick-dots li {
-  margin: 0 15px;
-}
-
-.slick-dots li.slick-active button {
-  background-color: #D6680F;
-}
-
-.slick-dots button {
-  background-color: #2C2321;
-  width: 8px;
-  height: 8px;
-  border: none;
-  border-radius: 50%;
-  font-size: 0;
 }
 
 .header {
@@ -469,9 +454,37 @@ button {
   margin-right: -150px;
 }
 
-.slider {
+.architects {
   background-color: #2C2321;
-  height: 680px;
+  padding: 120px 0;
+}
+
+.architects__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+}
+
+.architects__title {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-right: 69.5px;
+  max-width: 330px;
+}
+
+.architects__swiper {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.architects__nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .blog {
@@ -492,7 +505,7 @@ button {
 }
 
 .blog__item-image {
-  margin-bottom: 50px;
+  margin-bottom: 57px;
 }
 
 .footer {
@@ -814,4 +827,68 @@ button {
 
 .blog__item-descr {
   line-height: 175%;
+}
+
+.architects-swiper__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.architects-swiper__item {
+  -ms-flex-preferred-size: 350px;
+      flex-basis: 350px;
+  margin-right: 30px;
+}
+
+.architects-item {
+  position: relative;
+}
+
+.architects-item__content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.architects-item__descr {
+  margin-top: 7px;
+  font-weight: 500;
+  line-height: 9px;
+  color: #CDCDCD;
+}
+
+.architects-nav__btn {
+  font-size: 0;
+  background-color: transparent;
+  margin-right: -7px;
+  margin-bottom: 3px;
+  padding-left: 19px;
+}
+
+.architects-nav__btn::before {
+  display: table;
+  width: 28px;
+  height: 16px;
+}
+
+.architects-nav__btn-prev::before {
+  content: url("/images/icon/arrow prev.svg");
+}
+
+.architects-nav__btn-next::before {
+  content: url("/images/icon/arrow next.svg");
 }

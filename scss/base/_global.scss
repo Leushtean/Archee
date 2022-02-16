@@ -19,6 +19,7 @@ body {
 	min-height: 100%;
 	width: 1440px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .main {
@@ -68,34 +69,25 @@ button {
 	font-size: 32px;
 	line-height: 121%;
 	color: $title-color;
-	&__large{
-		font-family: $ff2;
-		font-weight: 900;
+	&-white {
 		font-size: 48px;
 		line-height: 125%;
-		color: $title-color;
+		color: $white;
 	}
+	
+	&-arch{
+		font-family: $ff2;
+		font-size: 24px;
+		line-height: 125%;
+		font-weight: 900;
+	}
+
 }
 
-.slick-dots {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	li {
-		margin: 0 15px;
-		&.slick-active {
-			button {
-				background-color: $accent-color;
-			}
-		}
-	}
-
-	button {
-		background-color: $title-color;
-		width: 8px;
-		height: 8px;
-		border: none;
-		border-radius: 50%;
-		font-size: 0;
-	}
+.title__large {
+	font-family: $ff2;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 125%;
+	color: $title-color;
 }

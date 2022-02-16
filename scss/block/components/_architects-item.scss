@@ -1,0 +1,27 @@
+.architects-item {
+	position: relative;
+
+	&__image {}
+
+	&__content {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 30px 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+
+	&__title {
+	}
+
+	&__descr {
+		margin-top: 7px;
+		font-weight: 500;
+		line-height: 9px;
+		color: #CDCDCD;
+	}
+}

@@ -1,0 +1,11 @@
+.architects-swiper {
+
+	&__list {
+		display: flex;
+	}
+
+	&__item {
+		flex-basis: 350px;
+		margin-right: 30px;
+	}
+}
